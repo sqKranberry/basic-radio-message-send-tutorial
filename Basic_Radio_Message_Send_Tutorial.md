@@ -19,7 +19,7 @@ radio.setGroup(1)
 ## Step 2 Sending Messages
 ### In the next two steps we'll make the microbit send messages when we press the A or B button
 
-Drag and drop the ``|| input: on button A pressed ||`` block from the ``|| Input:||`` section into the workspace.
+Drag and drop the ``|| input: on button A pressed ||`` block from the ``|| Input||`` section into the workspace.
 
 Place the ``|| radio: radio send string ||`` block from the ``|| Radio:||`` section inside the ``|| input: on button A pressed ||`` block.
 
