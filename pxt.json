@@ -8,8 +8,8 @@
     },
     "files": [
         "main.blocks",
-        "main.ts",
-        "README.md"
+        "README.md",
+        "Basic_Radio_Message_Send_Tutorial.md"
     ],
     "testFiles": [
         "test.ts"
