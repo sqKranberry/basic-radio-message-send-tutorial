@@ -69,3 +69,8 @@ radio.onReceivedString(function (receivedString) {
 })
 ```
 
+## Step 5 Download and Test code
+
+Download the code to your two microbits! 
+When you press Button A on on microbit, it should send YES to the other one.
+When you press Button B on the microbit, it should send NO to the other one.
