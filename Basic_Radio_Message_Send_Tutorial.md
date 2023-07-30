@@ -59,11 +59,13 @@ input.onButtonPressed(Button.B, function () {
 
 Drag and drop the ``||radio: on received string||`` block from the "Radio" section into the workspace.
 
-Inside the ``||radio: on received string||`` block, add the ``||basic: show string||`` block from the "Basic" section.
+Inside the ``||radio: on Radio received string||`` block, add the ``||basic: show string||`` block from the "Basic" section.
+
+Drag and drop the ``||function: receivedString||`` into the "Hello" section of the ``||basic:show string||`` block.
 
 This block is triggered whenever a message is received. It will display the received message on the LED screen
 
-    ```blocks
+```blocks
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
 })
